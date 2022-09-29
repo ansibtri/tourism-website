@@ -1,0 +1,328 @@
+*{
+	margin: 0;
+	padding:0;
+	font-family:Century gothic;
+}
+body{
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url("images/kanyam.jpg");
+	background-repeat: no-repeat;
+	background-size:cover;
+	background-position: center;
+	background-attachment:scroll;
+	height: 50rem;
+}
+.navbar{
+	width: 62rem;
+	background-color: rgba(0,0,0,0);
+}
+.title{
+	width: 50%;
+	position: absolute;
+	margin-top: 2rem;
+	font-size: 3rem;
+	padding-left: 3rem;
+	font-weight: bolder;
+	text-transform: uppercase;
+	color: #fff;
+}
+.titles{
+	font-size: 0.9rem;
+	position: absolute;
+	margin-left: -10rem;
+	margin-top: 3rem;
+
+}
+.nepalflag{
+	float: right;
+	margin-top: 1rem;
+	margin-right: 4rem;
+	position: relative;
+	width: 5rem;
+	height: 6rem;
+}
+.headhr{
+	position: absolute;
+	margin-top: 8rem;
+	margin-left: 1rem;
+	width: 90%;
+	padding-left: 3.1rem;
+}
+.listof{
+	float:right;
+	list-style-type: none;
+	padding-top: 0.5rem;
+	margin-top: 9rem;
+	padding-right: 0rem;
+}
+.listof li{
+	display: inline-block;
+	padding-right: 0.9rem;
+	
+}
+.listof li a{
+	text-decoration: none;
+	color:#fff;
+	padding: 6px 10px;
+	transition: ease 0.6s;
+}
+.listof li a:hover{
+	color: #000;
+	background-color: #fff;
+}
+.listof li a i{
+	padding-right: 1rem;
+}
+.dlvn{
+	top: 50%;
+	left: 20%;
+	align-content: center;
+	position: absolute;
+}
+.lvn{
+	color: #fff;
+	font-size: 5rem;
+	font-weight: bolder;
+	text-transform: uppercase;
+	text-align: center;
+}
+.btn{
+	font-size: xx-large;
+	font-weight: normal;
+	color:#ffffff;
+	border:none;
+	background-color: rgba(0,0,0,0);
+	margin-left: 14rem;
+	text-transform: uppercase;
+	padding:1px 15px 1px 15px;
+	border-radius: 25px;
+	align-content: center;
+	transition: ease 0.6s background-color;
+}
+.btn:hover{
+	color:#000;
+	background-color:#ffa500;
+
+}
+.maindiv{
+	position: absolute;
+	top:50rem;
+}
+.maindiv .wtn{
+	font-size: 4rem;
+	font-weight: bold;
+	color: rgb(50, 205, 50);
+	text-align: center;
+	margin-top: 5rem;
+	margin-left: 15rem;
+	margin-bottom: 5rem;
+}
+.interpretation{
+	position: absolute;
+	top: 69rem;
+	width: 59rem;
+	margin-left: 2rem;
+	margin-bottom: 56rem;
+	margin-top: -3rem;
+	background-color:#FFF;
+	box-shadow: 1px 1px 2px 0px rgb(0,0,0.5)
+}
+.prospects{
+	list-style-type: none;
+}
+.ght h3, .hmp h3, .at h3, .rah h3, .nvw h3, .cd h3, .gcd h3{
+	font-size: 2rem;
+	text-decoration: none;
+	margin-left: 2rem;
+	margin-top: 1rem;
+}
+.ght img, .at img, .gcd img{
+	margin:1rem;
+	float:right;
+	position:relative;
+	height: 15rem;
+}
+ .hmp img,.nvm img, .rah img, .nvw img, .cd img{
+ 	width: 15rem;
+ 	margin:0.1rem 1rem 1rem 1rem;
+	float:right;
+	position:relative;
+	height: 10rem;
+ }
+.ght p, .hmp p, .at p, .rah p, .nvw p, .cd p, .gcd p{
+	word-wrap: break-word;
+	text-align:justify;
+	margin-right: 1rem;
+	margin-left: 1rem;
+	margin-top:2rem;
+	letter-spacing: 1px;
+	margin-bottom: 2rem;
+}
+.hvn{
+	position: absolute;
+	top: 212rem;
+}
+.hvnh{
+	font-size: 4rem;
+	font-weight: bold;
+	color: rgb(50, 205, 50);
+	text-align: center;
+	margin-top: 10rem;
+	margin-left: 5rem;
+	margin-bottom: 5rem;
+}
+.hvn img{
+	width: 60.9rem;
+	margin:1rem;
+}
+.interhvn{
+	position: absolute;
+	top:50rem;
+}
+.interhvnul li{
+	display: inline-block;
+	float:both;
+}
+.vv, .va, .vf{
+	margin-top: 2.2rem;
+	width: 15rem;
+	height: 18rem;
+	background-color: #FFF;
+	margin-left: 4rem;
+	margin-bottom: 4rem;
+	text-align: center;
+	padding-top: 1rem;
+	box-shadow: 1px 1px 2px 0px rgb(0,0,0.5)
+}
+.vv h5, .va h5, .vf h5{
+	font-size: 2rem;
+	margin-bottom: 2.9rem;
+	padding-top: 0rem;
+	-webkit-text-stroke:1px #000;
+    -webkit-text-fill-color: white;
+}
+.vv img, .va img, .vf img{
+	margin:0rem;
+	width: 15rem;
+	height: 9.59rem;
+}
+.vv i, .va i, .vf i{
+	font-size: 2rem;
+	margin-bottom: 0rem;
+	padding-top: 1rem;
+	-webkit-text-stroke:1px #000;
+    -webkit-text-fill-color: white;
+}
+.pfirst, .psecond, .pthird{
+	display: none;
+}
+.vv:hover .pfirst,.va:hover .psecond, .vf:hover .pthird{
+	display: block;
+	position:absolute;
+	top:2.2rem;
+	width: 13rem;
+	height: 17rem;
+	background-color: #FFF;
+	text-align: center;
+	padding-top: 1rem;
+	text-align:justify;
+	padding:1rem;
+	letter-spacing: 1px;
+	box-shadow: 1px 1px 2px 0px rgb(0,0,0.5)
+}
+.hulit{
+	position: absolute;
+	top:290rem;
+	width: 62rem;
+	margin-bottom: 30rem;
+}
+.hulit h5{
+	font-size: 4rem;
+	font-weight: bold;
+	text-align: center;
+	padding-left: 4rem;
+	margin-bottom: 3rem
+}
+.hulit button i{
+	padding-left: -0.5rem;
+}
+.fa-thumbs-like{
+	width: 10rem;
+	height: 4rem;
+	margin-left: 22rem;
+	padding-bottom: 0.5rem;
+	font-size: 2rem;
+	border:none;
+	margin-bottom: 0rem;
+	padding-top: 0.5rem;
+	border-radius: 8px;
+	-webkit-text-stroke:1px #000;
+    -webkit-text-fill-color: white;
+}
+
+.fa-thus-down{
+	width: 10rem;
+	height: 4rem;
+	padding-bottom: 0.5rem;
+	font-size: 2rem;
+	border:none;
+	padding-left:0.5rem;
+	padding-right:0.5rem;
+	margin-bottom: 0rem;
+	padding-top: 0.5rem;
+	border-radius: 8px;
+	-webkit-text-stroke:1px #000;
+    -webkit-text-fill-color: white;
+}
+.fa-thumbs-like:hover, .fa-thus-down:hover{
+	color:#FFF;
+	background-color: #87CEEB;
+}
+.endpart{
+	background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5));
+	position: absolute;
+	top:310rem;
+	margin:0rem;
+	width: 62.96rem;
+	height: 21rem;
+}
+.contactinfo {
+	width: 17rem;
+	height: 18rem;
+	margin-top: 1rem;
+	padding-top: 1rem;
+	padding-left: 1rem;
+	float: left;
+}
+.contactinfo h3, .quicklinks h3{
+	font-size: 2rem;
+}
+.contactinfo p, .quicklinks p{
+	font-size: 1rem;
+	padding-left: 2rem;
+	padding-top: 2rem;
+}
+.contactinfo p i, .quicklinks p i{
+	padding-right: 1rem;
+}
+.quicklinks{
+	position: absolute;
+	float: right;
+	margin-left:30rem;
+	margin-top: 2rem;
+}
+.quicklinks p a{
+	text-decoration: none;
+	color: #000;
+}
+.copyrights{
+	width: 62.96rem;
+	height: 3rem;
+	top:330rem;
+	position: absolute;
+	background-color:rgba(0,0,0,1);
+}
+.reserved{
+	color:#FFF;
+	text-align: center;
+	padding-top: 1rem;
+}
