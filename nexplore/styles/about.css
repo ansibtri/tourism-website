@@ -1,0 +1,21 @@
+.about-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+}
+.about-section h1{
+    font-size: 4rem;
+    color: #6158dd;
+    font-family: 'Roboto',sans-serif;
+}
+.about-section p{
+    font-size: 1.3rem;
+    padding: 60px 0 0 0;
+    text-align: center;
+    line-height: 30px;
+    letter-spacing: 1.5px;
+    word-spacing: 3px;
+    font-family: 'Inter',sans-serif;
+}

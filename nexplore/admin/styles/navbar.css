@@ -1,0 +1,35 @@
+.navbar{
+    background-color: #3c4ff5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    height: 10vh;
+    z-index: 0;
+    position: relative;
+}
+.navbar h3,
+.div button{
+    color: #fff;
+    font-family: Inter;
+    text-align: center;
+}
+.navbar h3{
+    font-size: 1.5rem;
+}
+.navbar button{
+    font-size: 1.2rem;
+    background-color: transparent;
+    border:none;
+    color:#fff;
+
+}
+@media screen and (max-width: 576px) {
+    .navbar h3{
+        font-size: 1.1rem;
+    }
+    .navbar button{
+        font-size: 1rem;;
+    
+    }
+}

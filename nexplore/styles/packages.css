@@ -1,0 +1,105 @@
+.package-head h4{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    color: #4d4c4c;
+    text-align: center;
+    position: relative;
+    margin: 50px 0 30px 0;
+}
+.package-head .divider{
+    background-color: red;
+    width: 5%;
+    height: 3px;
+    display: block;
+    margin:20px auto;
+}
+
+.package-body{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-items: center;
+    align-content: center;
+    grid-gap: 2.5rem;
+    padding: 50px 100px;
+
+}
+.packages-card .card-img img{
+    border-radius: 5px;
+}
+.packages-card .card-body{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.packages-card .card-body h2{
+    padding: 30px auto;
+    text-align: center;
+    color: #222121;
+    font-family: 'Lato',sans-serif;
+}
+.packages-card .card-body p.detail{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    color: #868686;
+}
+.packages-card .card-body p.date{
+    margin-top: 1rem;
+    font-size: 1.1rem;
+    font-family: 'Roboto',sans-serif;
+    text-align: center;
+    font-weight: bold;
+    color:#4d4c4c;
+}
+.packages-card .card-body a.btn-link,
+.load-more-btn{
+    font-size: 1.2rem;
+    color: #f3efef;
+    background-color: rgb(56, 56, 231);
+    padding: 10px 20px;
+    margin: 20px 0;
+    border-radius: 4px;
+}
+.load-more-block{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.load-more-btn{
+    background-color: #868686;
+}
+
+
+@media screen and (max-width:1200px) {
+    .package-body{
+        grid-gap: 2rem;
+        padding: 25px 50px;
+    
+    }
+}
+@media screen and (max-width:900px) {
+    .package-body{
+        grid-template-columns:  repeat(2,1fr);
+        grid-gap: 1rem;
+        padding: 25px 25px;
+    }
+}
+@media screen and (max-width:600px) {
+    .package-body{
+        grid-template-columns:  repeat(1,1fr);
+        grid-gap: 1rem;
+        padding: 20px 20px;
+    }
+    .package-head .divider{
+        background-color: red;
+        width: 10%;
+        height: 3px;
+        display: block;
+        margin:20px auto;
+    }
+}

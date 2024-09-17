@@ -1,0 +1,15 @@
+a{
+    text-decoration: none;
+    cursor: pointer;
+}
+li{
+    list-style-type: none;
+}
+img{
+    max-width: 100%;
+    height:auto;
+}
+h1{
+    font-size: 2rem;
+    font-family: "Roboto";
+}

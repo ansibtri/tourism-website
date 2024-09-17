@@ -1,0 +1,44 @@
+.sidebar{
+    height: 100%;
+    background-color: #3c4ff5;
+    max-width: 200px;
+    position: fixed;
+    top:0;
+    z-index: 1;
+}
+.sidebar  h1{
+    font-size: 2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #fff;
+    font-family: Inter;
+    text-align: center;
+    padding-top:10px;
+}
+.sidebar ul{
+    padding-left:0;
+    padding-top: 30px;
+}
+.sidebar ul li{
+    margin: 10px 0;
+    text-align: left;
+    cursor:pointer;
+    height: 40px;
+    width: 100%;
+}
+.sidebar ul li.active{
+    background-color: rgba(20, 42, 238, 0.678)
+}
+.sidebar ul li:hover{
+    background-color: rgba(15, 38, 243, 0.678)
+}
+.sidebar ul li a{
+    height: 100%;
+    width: 100%;
+    color: #fff;
+    font-size: 1rem;
+    font-family: Inter;
+    display: block;
+    padding-top: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+}

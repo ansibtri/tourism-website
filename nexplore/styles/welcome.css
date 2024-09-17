@@ -1,0 +1,109 @@
+
+.container-head{
+    background-color: #e6e6e6;
+    display: block;
+    margin:auto;
+    padding: 50px;
+}
+.container-head p{
+    font-size: 1.1rem;
+    font-weight: bold;
+    font-family: 'Inter',sans-serif;
+    color: #1f1e1e;
+    text-align: center;
+}
+
+.container-body{
+    margin:auto;
+    padding: 80px 80px 40px 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.container-body .container-detail{
+    padding: 30px;
+}
+.container-body .container-detail h4{
+    font-size: 2rem;
+    font-family: 'Lato', sans-serif;
+    display: block;
+    color: #4d4c4c;
+    text-align: center;
+    position: relative;
+    margin: 30px 0;
+}
+.container-body .container-detail .divider{
+    background-color: red;
+    width: 25%;
+    height: 3px;
+    display: block;
+    margin:auto;
+}
+.container-body .container-detail p{
+    font-size: 1.1rem;
+    font-family: 'Lato', sans-serif;
+    font-weight: 500;
+    color: #4d4c4c;
+    text-align: left;
+    line-height: 25px;
+    letter-spacing: 1.3px;
+    word-spacing: 3px;
+    padding: 40px 0;
+}
+.container-body .container-detail p span{
+    font-weight: 700;
+    color: #313030;
+}
+.container-body .container-img{
+    min-width: 500px;
+
+}
+.container-body .container-img img{
+    border-radius: 5px;    
+}
+
+
+@media screen and (max-width: 1230px) {
+    .container-body{
+        padding: 40px;
+    }
+    .container-body .container-detail{
+        padding: 15px;
+    }
+    .container-body .container-img{
+        min-width: 400px;
+    
+    }
+}
+@media screen and (max-width: 1000px) {
+    .container-body .container-detail p{
+        font-size: 1rem;
+    }
+    .container-body .container-detail h4{
+        font-size: 1.8rem;
+        margin: 20px 0;
+    }
+}
+@media screen and (max-width: 960px) {
+    .container-body{
+        flex-direction: column;
+        gap: .5rem;
+    }
+}
+@media screen and (max-width: 600px) {
+    .container-body .container-detail{
+        padding: 20px;
+    }
+    .container-body .container-detail h4{
+        font-size: 1.4rem;
+    }
+    .container-body .container-img{
+        min-width: 300px;
+        max-width: 100%;
+    }
+    .container-body{
+        padding: 0;
+    }
+}
